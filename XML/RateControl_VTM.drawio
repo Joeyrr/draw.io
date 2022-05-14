@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T10:58:29.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="dfynglM5BBi_SXzofQO-" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-14T11:01:44.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="BN8JqNQ1WL8cXs4N-oot" version="18.0.3" type="github">
   <diagram id="z2ERmampXV34Q7dFAgUw" name="Page-1">
     <mxGraphModel dx="1125" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,11 +205,29 @@
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="PeY2l2dWGEtgDnYQ0aen-72" target="PeY2l2dWGEtgDnYQ0aen-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="PeY2l2dWGEtgDnYQ0aen-72" target="PeY2l2dWGEtgDnYQ0aen-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-72" value="xCompressCU" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-74" value="calculate:&lt;br&gt;m_pcRateCtrl-&amp;gt;&lt;br&gt;getRCPic()-&amp;gt;&lt;br&gt;getLCU().&lt;br&gt;m_actualMSR" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1360" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="PeY2l2dWGEtgDnYQ0aen-76" target="PeY2l2dWGEtgDnYQ0aen-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-76" value="pRdCost-&amp;gt;&lt;br&gt;setLambda" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="PeY2l2dWGEtgDnYQ0aen-78" target="PeY2l2dWGEtgDnYQ0aen-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-78" value="m_pcRdCost-&amp;gt;&lt;br&gt;setDistortionWeight" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-80" value="pRateCtrl-&amp;gt;&lt;br&gt;getRCPic()-&amp;gt;&lt;br&gt;updateAfterCTU" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="1260" width="145" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
