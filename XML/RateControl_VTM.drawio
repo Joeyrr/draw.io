@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T07:30:24.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="0erM_8scGdAtfduP3aYV" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-14T07:41:19.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="--OO4u5prWY0wOGx1Ypc" version="18.0.3" type="github">
   <diagram id="z2ERmampXV34Q7dFAgUw" name="Page-1">
     <mxGraphModel dx="956" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,14 +104,15 @@
             <mxPoint x="180" y="400" as="targetPoint" />
             <Array as="points">
               <mxPoint x="70" y="880" />
-              <mxPoint x="20" y="680" />
-              <mxPoint x="30" y="460" />
+              <mxPoint x="10" y="730" />
+              <mxPoint x="20" y="450" />
               <mxPoint x="80" y="350" />
+              <mxPoint x="160" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-28" value="EOF" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="30" y="585" width="40" height="20" as="geometry" />
+          <mxGeometry x="20" y="560" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="PeY2l2dWGEtgDnYQ0aen-33" target="PeY2l2dWGEtgDnYQ0aen-35">
           <mxGeometry relative="1" as="geometry" />
@@ -124,11 +125,17 @@
             <mxPoint x="180" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="PeY2l2dWGEtgDnYQ0aen-35" target="PeY2l2dWGEtgDnYQ0aen-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-35" value="m_cGOPEncoder.&lt;br&gt;compressGOP" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="660" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PeY2l2dWGEtgDnYQ0aen-39" value="m_cRateCtrl.&lt;br&gt;destroyRCGOP" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeY2l2dWGEtgDnYQ0aen-41" value="xPicInitRateControl" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="770" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
