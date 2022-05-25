@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T09:42:43.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="COiF7OVcFERXI7EYm7Nu" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T10:45:28.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="1luFMjXnksBFnhCv3-C_" version="18.0.3" type="github">
   <diagram id="pCQRFxpyoTq6nAkenusv" name="Page-1">
-    <mxGraphModel dx="1787" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1782" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,11 +173,11 @@
         <mxCell id="L7ItGJBqRo02B6cRfJcL-60" value="①&lt;br&gt;Artifacts&lt;br&gt;Remove" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="10" y="221" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7ItGJBqRo02B6cRfJcL-62" value="1. Fraction&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontFamily=Lucida Console;fontSize=12;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="450" y="241" width="270" height="299" as="geometry" />
+        <mxCell id="L7ItGJBqRo02B6cRfJcL-62" value="1. Fractional-Sample Interpolation&lt;br&gt;2. Residual Interpolation&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Deblock Filter &amp;amp; SAO Adaptation&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontFamily=Lucida Console;fontSize=12;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="323" width="250" height="169" as="geometry" />
         </mxCell>
         <mxCell id="L7ItGJBqRo02B6cRfJcL-63" value="&lt;span style=&quot;&quot;&gt;ISRDecoder Design&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Lucida Console;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="450" y="220" width="140" height="20" as="geometry" />
+          <mxGeometry x="470" y="302" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
