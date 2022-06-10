@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T07:26:37.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="EROqYMYIuqMVbkJj-Idd" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T08:00:21.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="Z9gHi9w0WPDLT5zTBQs4" version="19.0.3" type="github">
   <diagram id="RMRCRSJFabJXOBfH01yb" name="Page-1">
-    <mxGraphModel dx="1972" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2217" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,8 +58,11 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-15" value="m_passEnc&lt;br&gt;-&amp;gt;init" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="690" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-17" target="eOThzZjHxrsogjhqtXI8-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-17" value="m_passEnc&lt;br&gt;-&amp;gt;&lt;br&gt;startThreads" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-19" target="eOThzZjHxrsogjhqtXI8-21">
           <mxGeometry relative="1" as="geometry" />
@@ -145,8 +148,17 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-45" value="m_done.trigger()&lt;br&gt;m_enable.wait()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="1529" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-47" target="eOThzZjHxrsogjhqtXI8-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-47" value="while&lt;br&gt;(m_threadActive)" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1445" y="1669" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-49" value="compressFrame()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1669" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-51" value="PassEncoder::&lt;br&gt;threadMain()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1000" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
