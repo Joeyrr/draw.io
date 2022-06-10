@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T08:17:56.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="22wnIJZLCKMBGxbixNl4" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T08:22:50.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="IPs2Y2i9Z-XAtvJnz-8u" version="19.0.3" type="github">
   <diagram id="RMRCRSJFabJXOBfH01yb" name="Page-1">
-    <mxGraphModel dx="2858" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2181" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-4" target="eOThzZjHxrsogjhqtXI8-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-4" value="cliopt.parse" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="eOThzZjHxrsogjhqtXI8-4" value="cliopt.parse()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-6" target="eOThzZjHxrsogjhqtXI8-11">
           <mxGeometry relative="1" as="geometry" />
@@ -55,14 +55,14 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-15" target="eOThzZjHxrsogjhqtXI8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-15" value="m_passEnc&lt;br&gt;-&amp;gt;init" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eOThzZjHxrsogjhqtXI8-15" value="m_passEnc&lt;br&gt;-&amp;gt;init()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-17" target="eOThzZjHxrsogjhqtXI8-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-17" value="m_passEnc&lt;br&gt;-&amp;gt;&lt;br&gt;startThreads" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1000" width="120" height="60" as="geometry" />
+        <mxCell id="eOThzZjHxrsogjhqtXI8-17" value="m_passEnc-&amp;gt;&lt;br&gt;startThreads()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="1000" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-19" target="eOThzZjHxrsogjhqtXI8-21">
           <mxGeometry relative="1" as="geometry" />
@@ -70,10 +70,10 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-19" target="eOThzZjHxrsogjhqtXI8-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-19" value="m_encoder=&lt;br&gt;m_cliopt.api&lt;br&gt;-&amp;gt;&lt;br&gt;encoder_open" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="680" width="120" height="80" as="geometry" />
+        <mxCell id="eOThzZjHxrsogjhqtXI8-19" value="m_encoder=&lt;br&gt;m_cliopt.api&lt;br&gt;-&amp;gt;&lt;br&gt;encoder_open()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="680" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-21" value="m_cliopt.api&lt;br&gt;-&amp;gt;encoder_&lt;br&gt;parameters" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eOThzZjHxrsogjhqtXI8-21" value="m_cliopt.api&lt;br&gt;-&amp;gt;encoder_&lt;br&gt;parameters()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-23" value="get the encoder parameters &lt;br&gt;post-initialization&lt;br&gt;all start print finish here" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
@@ -91,20 +91,20 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-27" target="eOThzZjHxrsogjhqtXI8-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-27" value="encoder-&amp;gt;&lt;br&gt;configure" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eOThzZjHxrsogjhqtXI8-27" value="encoder-&amp;gt;&lt;br&gt;configure()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-29" target="eOThzZjHxrsogjhqtXI8-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-29" value="encoder-&amp;gt;&lt;br&gt;create" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eOThzZjHxrsogjhqtXI8-29" value="encoder-&amp;gt;&lt;br&gt;create()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-31" target="eOThzZjHxrsogjhqtXI8-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOThzZjHxrsogjhqtXI8-31" value="m_threadPool&lt;br&gt;m_threadPool::&lt;br&gt;allocThreadPools" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="970" width="160" height="60" as="geometry" />
+        <mxCell id="eOThzZjHxrsogjhqtXI8-31" value="m_threadPool&lt;br&gt;m_threadPool::&lt;br&gt;allocThreadPools()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="970" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-33" target="eOThzZjHxrsogjhqtXI8-35">
           <mxGeometry relative="1" as="geometry" />
@@ -201,6 +201,19 @@
         </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-66" value="m_enable.&lt;br&gt;trigger()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-69" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Lucida Console;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-66" target="eOThzZjHxrsogjhqtXI8-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1480" as="sourcePoint" />
+            <mxPoint x="1150" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="1500" />
+              <mxPoint x="1370" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-70" value="multi-threads&lt;br style=&quot;font-size: 24px;&quot;&gt;start process in x265" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Lucida Console;fontSize=24;labelBackgroundColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
