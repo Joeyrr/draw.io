@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T03:08:16.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="E3c_dqcce7Ybg2hheC7m" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T03:18:29.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="V0XkTmELhDWq6iPwsuxz" version="19.0.3" type="github">
   <diagram id="RMRCRSJFabJXOBfH01yb" name="Page-1">
     <mxGraphModel dx="1800" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,8 +97,20 @@
         <mxCell id="eOThzZjHxrsogjhqtXI8-29" value="encoder-&amp;gt;&lt;br&gt;create" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="970" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-31" target="eOThzZjHxrsogjhqtXI8-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eOThzZjHxrsogjhqtXI8-31" value="m_threadPool&lt;br&gt;m_threadPool::&lt;br&gt;allocThreadPools" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1180" y="970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="eOThzZjHxrsogjhqtXI8-33" target="eOThzZjHxrsogjhqtXI8-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-33" value="m_frameEncoder[i]&lt;br&gt;=new FrameEncoder" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="1109" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eOThzZjHxrsogjhqtXI8-35" value="m_frameEncoder[i]&lt;br&gt;-&amp;gt;init()" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="1249" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
