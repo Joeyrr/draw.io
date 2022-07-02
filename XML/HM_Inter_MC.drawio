@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T04:17:48.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="OfWxHDz7D91y8zR_YZfh" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-02T04:23:52.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="qfL2YCQkJEQXuBXNeHGX" version="20.0.3" type="github">
   <diagram id="HPuY76YFBBVVepUrAg1s" name="Page-1">
     <mxGraphModel dx="1111" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,17 +37,26 @@
         <mxCell id="S-Lnv91buSKmslDG_ZGh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="S-Lnv91buSKmslDG_ZGh-14" target="S-Lnv91buSKmslDG_ZGh-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S-Lnv91buSKmslDG_ZGh-14" value="xPredInterUni" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="585" width="140" height="60" as="geometry" />
+        <mxCell id="S-Lnv91buSKmslDG_ZGh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;" edge="1" parent="1" source="S-Lnv91buSKmslDG_ZGh-14" target="S-Lnv91buSKmslDG_ZGh-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S-Lnv91buSKmslDG_ZGh-16" value="xWeightedAverage" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475" y="725" width="170" height="60" as="geometry" />
+        <mxCell id="S-Lnv91buSKmslDG_ZGh-14" value="xPredInterUni" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-Lnv91buSKmslDG_ZGh-16" value="xWeightedPredictionUni" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="730" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S-Lnv91buSKmslDG_ZGh-18" value="END" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S-Lnv91buSKmslDG_ZGh-20" value="delete[] cuPred_SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="610" y="485" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-Lnv91buSKmslDG_ZGh-21" value="xPredInterBlk" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-Lnv91buSKmslDG_ZGh-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;if ( yFrac == 0 )&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; filterHor()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;elif ( xFrac == 0 )&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; filterVer()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;else&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; filterHor() &amp;amp;&amp;amp; filterVer()&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="870" y="585" width="350" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
