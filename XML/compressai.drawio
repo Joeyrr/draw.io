@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T07:08:04.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="MoV0DmFXJ2lj8CBlBcJT" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T07:11:05.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="yme4kum1ifQIr2iSJ2lB" version="20.0.3" type="github">
   <diagram id="2_RPqlqdWzfG0cwzjeVh" name="Page-1">
     <mxGraphModel dx="1349" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="9_yFKXLl_1HZHt2PYPIF-11" value="__init__.py&lt;br&gt;image_models=&lt;br&gt;{&quot;bmshj2018-factorized&quot;: bmshj2018_factorized, &lt;br&gt;&amp;nbsp; ……&lt;br&gt;}" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=16;align=left;" vertex="1" parent="1">
           <mxGeometry x="500" y="420" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9_yFKXLl_1HZHt2PYPIF-12" value="image.py &lt;br&gt;(download model &amp;amp;&amp;amp; set global parameters)&lt;br&gt;bmshj2018_factorized ……&lt;br&gt;&lt;br&gt;model_architectures[&quot;bmshj2018-factorized&quot;](*cfgs[architecture][quality], **kwargs)" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=16;align=left;" vertex="1" parent="1">
+        <mxCell id="9_yFKXLl_1HZHt2PYPIF-12" value="image.py &lt;br&gt;(download model &amp;amp;&amp;amp; set global parameters)&lt;br&gt;bmshj2018_factorized ……&lt;br&gt;&lt;br&gt;model_architectures[&quot;bmshj2018-factorized&quot;](*cfgs[architecture][quality], **kwargs)&lt;br&gt;&lt;br&gt;model_architecture=&lt;br&gt;{&quot;bmshj2018-factorized&quot;: FactorizedPrior,&lt;br&gt;……&lt;br&gt;}" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=16;align=left;" vertex="1" parent="1">
           <mxGeometry x="500" y="520" width="450" height="130" as="geometry" />
         </mxCell>
       </root>
